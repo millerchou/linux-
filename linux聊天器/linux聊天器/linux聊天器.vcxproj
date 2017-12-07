@@ -61,7 +61,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="server.cpp" />
+    <ClCompile Include="client.c" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

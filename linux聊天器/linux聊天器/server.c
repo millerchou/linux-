@@ -88,6 +88,7 @@ void deliver(char * msg, int len)
 		write(cltsock[i], msg, len);
 	pthread_mutex_unlock(&mutx);
 }
+
 void errordealer(char * msg)
 {
 	fputs(msg, stderr);
